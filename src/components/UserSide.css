@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: georgia;
+  text-align: center;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/714/717/309/5bd0335a8c605-wallpaper-preview.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#userAll {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#userAll form {
+  width: 70%;
+}
+#title {
+  font-weight: normal;
+  font-size: 3rem;
+}
+/* #title {
+  text-align: center;
+  font-family: Sans-serif;
+} */
+#description {
+  /* text-align: center; */
+  margin-bottom: 50px;
+}
+#first,
+#second,
+#third {
+  /* width: calc(70% - 40px); */
+  padding: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 20px;
+  /* width: 70%; */
+}
+#third {
+  margin-bottom: 40px;
+}
+
+/* #question {
+  width: 772px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+} */
+
+textarea {
+  width: 100%;
+  padding: 2%;
+  font-size: medium;
+  border-radius: 5px;
+}
